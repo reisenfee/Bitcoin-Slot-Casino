@@ -4,7 +4,7 @@ const passport = require('passport');
 const User = require('../models/user.js');
 const bitGoJS = require('bitgo');
 const slotMachine = require('../slot-machine/slot-machine')
-const accessToken = ""; // add your access token here
+const accessToken = "2a93a582fbf494b1c1a784778caf5fbced0d86631767fa6b7f4a074efc10fff7";
 
 const bitGo = new bitGoJS.BitGo({
   env: 'test',
